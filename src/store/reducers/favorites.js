@@ -5,7 +5,7 @@ export default function favorites(state = INITIAL_STATE, action) {
     case 'ADD_FAVORITE':
       return [...state, {
         id: Math.random(),
-        name: 'facebbok/react',
+        name: 'facebook/react',
         description: 'test',
         url: '#'
       }];
